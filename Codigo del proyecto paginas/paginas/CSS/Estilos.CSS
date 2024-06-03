@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Ajuste de box en los bordes */
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/* Inicia sección 1 */
+.section-1{
+    width: 100%;
+    height: 10em;
+    padding-top: 1.7em;
+}
+.header{
+    background-color: #6bc2f5;
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+position: fixed;
+}
+.img{
+    width: 25%;
+    height: 100%;
+}
+.menu{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 2em 1em;
+}
+.menu a:hover{
+    background-color: indigo;
+}
+/* Final sección 1 */
+
+/* Inicia sección 2 */
+.section-2{
+    width: 100%;
+    height: calc(100vp-14em);
+    background: #f1f2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #333;
+    color: #d81616;
+    padding: 10px;
+    text-align: center;
+    background-color: #e26161;
+    color: #94f842;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+
+    
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: purple;
+    justify-content: center;
+    
+}
+
+main {
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #000000;
+}
+
+section p {
+    color: #000000;
+    background: #7092f7;
+}
+
+footer {
+    background-color: #ebe5e5;
+    color: #94f842;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Estilos específicos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    background: #3550da;
+}

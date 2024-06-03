@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Ajuste de box en los bordes */
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/* Inicia sección 1 */
+.section-1{
+    width: 100%;
+    height: 10em;
+    padding-top: 1.7em;
+}
+.header{
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+        padding: 0 10px;
+        color: white;
+        text-shadow: 2px 2px rgb(116, 116, 116);
+        text-transform: uppercase;
+        cursor: pointer;
+        border: solid 2px black;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 17px;
+        background-color: hsl(49deg 98% 60%);
+        border-radius: 50px;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s ease;
+      }
+      
+      button:active {
+        transform: scale(0.9);
+        transition: all 100ms ease;
+      }
+      
+      button svg {
+        transition: all 0.5s ease;
+        z-index: 2;
+      }
+      
+      .play {
+        transition: all 0.5s ease;
+        transition-delay: 300ms;
+      }
+      
+      button:hover svg {
+        transform: scale(3) translate(50%);
+      }
+      
+      .now {
+        position: absolute;
+        left: 0;
+        transform: translateX(-100%);
+        transition: all 0.5s ease;
+        z-index: 2;
+      }
+      
+      button:hover .now {
+        transform: translateX(10px);
+        transition-delay: 300ms;
+      }
+      
+      button:hover .play {
+        transform: translateX(200%);
+        transition-delay: 300ms;
+      }
+    background-color: #3077b1;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.img{
+    width: 25%;
+    height: 100%;
+}
+.menu{
+    width: 55%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 2em 1em;
+}
+.menu a:hover{
+    background-color: indigo;
+}
+/* Final sección 1 */
+
+/* Inicia sección 2 */
+.section-2{
+    width: 100%;
+    height: calc(100vp-14em);
+    background: #dedfe4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: purple;
+    justify-content: center;
+}
+
+main {
+    padding: 20px;
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+    background-color: #c8e05c;
+}
+
+footer {
+    background-color: #ebe5e5;
+    color: #94f842;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Estilos específicos para imágenes */
+img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin: 0 auto;
+    background: #2825f0;
+}
